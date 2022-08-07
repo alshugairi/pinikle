@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="334" viewBox="0 0 320 334">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#5ac99d"/>
+            <stop offset="1" stop-color="#41979a"/>
+        </linearGradient>
+        <clipPath id="clip-path">
+            <path id="Rectangle_3623" fill="#fff" d="M0 0H320V334H0z" data-name="Rectangle 3623"/>
+        </clipPath>
+        <style>
+            .cls-3{opacity:.05;fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="ill-bg-shade" clip-path="url(#clip-path)">
+        <g id="Group_6444" data-name="Group 6444" transform="translate(-47 -23)">
+            <path id="Path_4302" d="M2873-419h354.781s35.151 74.016 0 143.068-89.167 14.021-129.4 89.339-9.235 133.432-56.849 172.167S2911.3 21.531 2873 27.63z" class="cls-3" data-name="Path 4302" transform="translate(-2873 333)"/>
+            <path id="Path_4301" d="M2873-419h303.031s17.01 78.328-18.75 127.609-127.932 76.49-121.7 157.818S2985.151-9.214 2873 8.635z" class="cls-3" data-name="Path 4301" transform="translate(-2873 333)"/>
+        </g>
+    </g>
+</svg>

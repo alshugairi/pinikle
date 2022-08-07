@@ -1,0 +1,25 @@
+@font-face {
+    font-family: HelveticaNeueW23forSKY;
+    src: url('../fonts/HelveticaNeueW23forSKY-Reg.woff');
+}
+
+body, a, h1, h2, h3, h4, h5, h6, input, button, select, .media-body, .text, tspan, textarea, text, .btn, input, textarea, li, p, label, .ps-widget--worktime p strong, .tp-caption, .widget-title, .jq-toast-single {
+    font-family: 'HelveticaNeueW23forSKY', sans-serif !important;
+    letter-spacing: 0 !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-family: 'HelveticaNeueW23forSKY', sans-serif !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'HelveticaNeueW23forSKY', sans-serif !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'HelveticaNeueW23forSKY', sans-serif !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'HelveticaNeueW23forSKY', sans-serif !important;
+}
+body{
+    direction: rtl;
+    text-align: right;
+}
