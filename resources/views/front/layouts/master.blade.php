@@ -53,6 +53,25 @@
                     {{ __('front.cart') }}
                     <span class="badge bg-dark text-white ms-1 rounded-pill"> {{ count(\Cart::getContent()) }}</span>
                 </a>
+                @auth
+                <div class="dropdown">
+                    <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="far fa-user"></i>
+                        {{ auth()->user()->name ?? '' }}
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();" class="dropdown-item">
+                            <i class="fas fa-sign-out-alt"></i>&nbsp;
+                            {{ __('admin.logout') }}</a>
+                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                            @csrf
+                        </form>
+                    </div>
+                </div>
+                @else
+                    <a class="btn btn-info mx-2" href="{{ route('login') }}">{{ __('front.login') }}</a>
+                @endauth
             </div>
         </div>
     </div>
