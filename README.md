@@ -16,3 +16,9 @@
   ```sh
   php artisan db:seed
   ```
+  
+  ### Login User
+  ```sh
+  email:admin@admin.com
+  password:12345678
+  ```
